@@ -30,17 +30,4 @@ for item in items_list:
     if item[1]['ед'] in item_analitic['ед'] :
         print("такая еденица измерения уже есть") 
     else:
-        item_analitic['ед'].append(item[1]['ед'])  
-print(item_analitic)
-
-
-        
-
-
-    
-
-
-
-
-
-
+        item_analitic['ед'].append(item[1]['ед']) print(item_analitic)
