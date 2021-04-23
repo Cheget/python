@@ -1,5 +1,5 @@
 userInput = int(input('Введите число от 1 до 12'))
-while (userInput in range(1,13)) != True:
+while ( userInput in range(1,13) and userInput.isdigit() ) != True:
     userInput = int(input(f'Строка должна содержать только цифры от 1 до 12, а вы ввели {userInput} Введите число от 1 до 12: '))
 spring = [3, 4, 5]
 summer = [6, 7, 8]
